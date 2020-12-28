@@ -60,6 +60,8 @@ export default {
         // position: Cesium.Cartesian3.fromDegrees(116.675425423348, 29.3060024700309, 500.0),
         name: 'Green circle at height with outline',
         ellipse: {
+          minimumPixelSize: 128,
+          maximumScale: 20000,
           semiMinorAxis: 3000.0,
           semiMajorAxis: 3000.0,
           height: 500,
